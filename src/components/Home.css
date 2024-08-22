@@ -24,7 +24,7 @@ header {
   font-weight: bolder;
 }
 
-.head-title, .second-title {
+.head-title, .second-title, .list-titles {
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   font-weight: bolder;
   color: #f9f9f9;
@@ -152,12 +152,12 @@ header {
 }
 
 .list-card {
-  background-color: #f9f9f9;
-  border-radius: 8px;
-  padding: 20px;
-  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
-  font-family: 'Courier New', Courier, monospace;
-  font-weight: bolder;
+  background: linear-gradient(135deg, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0));
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  border-radius: 20px;
+  border:1px solid rgba(255, 255, 255, 0.18);
+  box-shadow: 0 8px 32px 0 rgba(26, 26, 26, 0.37);
 }
 
 .list-image {

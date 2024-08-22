@@ -148,7 +148,9 @@ const Home = () => {
                       className="list-image" 
                       onClick={() => handleSelectList(list.id)} 
                     />
-                    <h3 onClick={() => handleSelectList(list.id)}>{list.name}</h3>
+                    <h3 
+                    className='list-titles'
+                    onClick={() => handleSelectList(list.id)}>{list.name}</h3>
                     <div className="list-actions">
                       <button 
                         onClick={() => handleEditList(list.id, list.name, list.image)} 
